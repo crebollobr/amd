@@ -93,6 +93,29 @@ GAMESS - Análise de Estrutura Eletrônica Molecular e Atômica ("Free")
 
 ```
 
+## Espresso
+```
+Quantum Espresso - Cálculos de Estrutura Eletrônica ("Free")
+
+           NVidia GPU - CUDA
+```
+## Yambo
+```
+Yambo -  Física do Estado Sólido e Molecular ("Free")
+
+           NVidia GPU - CUDA
+```
+## Gaussian
+```
+
+Gaussian - Dinâmica Molecular - (Proprietário)
+
+          NVidia GPU - CUDA
+
+```
+
+
+
 # teste00.md
 ## PyTorch OK
 ## GROMACS OK
