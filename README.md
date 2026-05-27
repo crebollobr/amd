@@ -38,7 +38,7 @@ AMD GPU -  HIP/ROCm
 OBS: Testado pela AMD (AMD Infinity Hub)
 
 ```
-## TensorFlow
+## TensorFlow OK teste06.md
 
 ```
 TensorFlow - Biblioteca para solução de problemas em "Deep Learning", "Machine Learning" e IA  ("Free")
