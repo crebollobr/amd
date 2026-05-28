@@ -57,7 +57,7 @@ AMD GPU -  HIP/ROCm
 
 OBS: Testado pela AMD (AMD Infinity Hub)
 ```
-## OpenFOAM
+## OpenFOAM NOK teste07.md
 ```
 OpenFOAM - Dinâmica de Fluidos Computacionais (CFD) ("Free")
 
