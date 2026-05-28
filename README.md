@@ -3,6 +3,36 @@
 # Todo
 
 
+
+## Ordem sugerida, do mais fácil ao mais trabalhoso:
+
+1. CP2K — suporte HIP/ROCm maduro, container pronto no AMD Infinity Hub, benchmarks publicados pela AMD. Smoke test
+rápido com H2O-64 ou LiH-HFX.
+2. QMCPACK — port HIP nativo, AMD investiu pesado (é case-study oficial deles para MI series). Build limpo,
+exemplos NiO clássicos.
+3. NWChem — tem ROCm via offload, mas é o mais chato dos três: TCE/CCSD nem todos os módulos têm kernel HIP.
+Funciona, mas exige escolher o módulo certo (DFT e plane-wave são os caminhos mais limpos).
+
+
+```
+  ┌──────────┬─────────────────┬─────────────────────────────────────────────────────────────────────────────────┐
+  │ Software │    Sua nota     │                                    Realidade                                    │
+  ├──────────┼─────────────────┼─────────────────────────────────────────────────────────────────────────────────┤
+  │ VASP     │ "AMD GPU -      │ ❌ Só GPU via OpenACC = NVIDIA HPC SDK exclusivo. Em AMD: só CPU. Há tentativas │
+  │          │ HIP/ROCm"       │  de OpenMP-target offload, ainda não produção.                                  │
+  ├──────────┼─────────────────┼─────────────────────────────────────────────────────────────────────────────────┤
+  │ GAMESS   │ (só CUDA)       │ ❌ Confirmado, só NVIDIA.                                                       │
+  ├──────────┼─────────────────┼─────────────────────────────────────────────────────────────────────────────────┤
+  │ Yambo    │ (só CUDA)       │ ❌ Confirmado, CUDA Fortran via NVHPC. Sem ROCm.                                │
+  ├──────────┼─────────────────┼─────────────────────────────────────────────────────────────────────────────────┤
+  │ Gaussian │ (só CUDA)       │ ❌ Proprietário, suporte GPU apenas NVIDIA (Tesla/A100/H100 homologados). Não   │
+  │          │                 │ roda em AMD GPU por design.                                                     │
+  └──────────┴─────────────────┴─────────────────────────────────────────────────────────────────────────────────┘
+
+
+```
+
+
 ## CP2K 
 ```
 
