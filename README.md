@@ -1,7 +1,10 @@
 # amd
 
-# Todo
+# Todo 05/06/2026
 
+
+  Plano sugerido pra hoje: DeePMD-kit → GPAW → ABINIT (os três novos que batem na placa). Se quiser jogar mais seguro, intercala com CP2K ou QMCPACK do seu
+  TODO, que têm container AMD pronto e fecham rápido.
 
 
 ## Ordem sugerida, do mais fácil ao mais trabalhoso:
