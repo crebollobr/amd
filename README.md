@@ -166,4 +166,7 @@ Gaussian - Dinâmica Molecular - (Proprietário)
 ## Quantum ESPRESSO NOK
 
 # teste06.md
+
+# teste07.md
+# teste06.md
 ## TensorFlow na AMD Instinct MI300X OK
