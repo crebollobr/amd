@@ -1,5 +1,30 @@
 # amd
 
+
+# teste00.md
+## PyTorch OK
+## GROMACS OK
+
+# teste02.md
+## NAMD OK
+
+# teste03.md
+## LAMMPS OK
+
+# teste04.md
+## Amber e AmberTools OK 
+
+# teste05.md
+## Quantum ESPRESSO NOK
+
+# teste06.md
+## TensorFlow na AMD Instinct MI300X OK
+
+# teste07.md
+## OpenFOAM em GPU AMD MI300
+
+
+
 # Todo 05/06/2026
 
 
@@ -149,24 +174,3 @@ Gaussian - Dinâmica Molecular - (Proprietário)
 
 
 
-# teste00.md
-## PyTorch OK
-## GROMACS OK
-
-# teste02.md
-## NAMD OK
-
-# teste03.md
-## LAMMPS OK
-
-# teste04.md
-## Amber e AmberTools OK 
-
-# teste05.md
-## Quantum ESPRESSO NOK
-
-# teste06.md
-
-# teste07.md
-# teste06.md
-## TensorFlow na AMD Instinct MI300X OK
